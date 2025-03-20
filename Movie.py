@@ -5,7 +5,7 @@ from requests_html import HTMLSession
 from datetime import datetime
 import requests
 from datetime import datetime,timezone,timedelta
-#test4
+#合併main
 url = 'https://script.google.com/macros/s/AKfycbwwB2Ke85PFeQqt2P9BRZFOxWif6JI4_ImblPyfFlP-VTJLkJJ6sZkCMD4tPhF_g8yT/exec'
 area ={1:'臺北', 2:'桃園', 3:'新竹', 4:'臺中', 5:'臺南', 6:'高雄', 7:'屏東', 8:'', 9:'苗栗', 10:'澎湖', 11:'花蓮', 12:'嘉義'}
 movie_rating ={0:'https://seo.docs.com.tw/cinema/photo/5140_1.png', 1:'https://seo.docs.com.tw/cinema/photo/5140_2.png', 2:'https://seo.docs.com.tw/cinema/photo/5140_3.png', 3:'https://seo.docs.com.tw/cinema/photo/5140_4.png', 4:'https://seo.docs.com.tw/cinema/photo/5140_5.png'}
